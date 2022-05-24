@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 ul {
 	padding: 0;
 	margin: 0;
@@ -67,7 +71,7 @@ body {
 }
 
 .bike {
-	padding: 100px 0 170px;
+	padding: 100px 0 0px;
 }
 
 .bike__inner {
@@ -112,6 +116,11 @@ body {
 	font-size: 20px;
 	line-height: 24px;
 	letter-spacing: 1.1em;
+	transition: all 0.3s;
+}
+
+.bike__link:hover {
+	background-color: red;
 }
 
 .bike__slider .slick-dots {
@@ -166,6 +175,7 @@ body {
 }
 
 .info {
+	padding-top: 130px;
 	margin-bottom: 150px;
 }
 
@@ -388,6 +398,11 @@ body {
 	line-height: 24px;
 	letter-spacing: 1.1em;
 	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.form__btn:hover {
+	background-color: red;
 }
 
 .footer {
